@@ -5,6 +5,5 @@ Create a tableview header which can be stretched.一句代码创建可被拉伸�
 * 在使用的位置引用头文件 `#import "MBStretchTableViewHeader.h"`
 * `[MBStretchTableViewHeader stretchHeaderWithTableView:tableView headerView:header];`
 
-==注意: 无需手动设置当前UITableView的表头==
-
+***注意: 无需手动设置当前UITableView的表头***
 
