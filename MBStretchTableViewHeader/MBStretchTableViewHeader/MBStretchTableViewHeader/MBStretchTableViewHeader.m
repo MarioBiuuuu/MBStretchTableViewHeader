@@ -29,6 +29,9 @@
         self.tableView = tableView;
         self.headerView = headerView;
         
+        self.headerView.contentMode = UIViewContentModeScaleAspectFill;
+        self.headerView.layer.masksToBounds = YES;
+        
         _stretchHeaderInitialFrame = self.headerView.frame;
         _stretchHeaderInitialHeight = _stretchHeaderInitialFrame.size.height;
         
@@ -37,7 +40,7 @@
         
         [self.tableView addSubview:self.headerView];
         
-        [self.tableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context: nil];
+        [self.tableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context: nil];
     }
     return self;
 }
