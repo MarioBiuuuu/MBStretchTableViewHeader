@@ -15,6 +15,7 @@
 		891776C11E63F3020060A8C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891776BF1E63F3020060A8C8 /* LaunchScreen.storyboard */; };
 		891776CE1E63FB3F0060A8C8 /* 1111.png in Resources */ = {isa = PBXBuildFile; fileRef = 891776CD1E63FB3F0060A8C8 /* 1111.png */; };
 		891776D21E640B970060A8C8 /* MBStretchTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 891776D11E640B970060A8C8 /* MBStretchTableViewHeader.m */; };
+		891776D41E64237F0060A8C8 /* HeaderTemp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 891776D31E64237F0060A8C8 /* HeaderTemp.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		891776CD1E63FB3F0060A8C8 /* 1111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1111.png; sourceTree = "<group>"; };
 		891776D01E640B970060A8C8 /* MBStretchTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStretchTableViewHeader.h; sourceTree = "<group>"; };
 		891776D11E640B970060A8C8 /* MBStretchTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStretchTableViewHeader.m; sourceTree = "<group>"; };
+		891776D31E64237F0060A8C8 /* HeaderTemp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTemp.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				891776B71E63F3010060A8C8 /* ViewController.h */,
 				891776B81E63F3020060A8C8 /* ViewController.m */,
 				891776CD1E63FB3F0060A8C8 /* 1111.png */,
+				891776D31E64237F0060A8C8 /* HeaderTemp.xib */,
 				891776BA1E63F3020060A8C8 /* Main.storyboard */,
 				891776BD1E63F3020060A8C8 /* Assets.xcassets */,
 				891776BF1E63F3020060A8C8 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 				891776C11E63F3020060A8C8 /* LaunchScreen.storyboard in Resources */,
 				891776BE1E63F3020060A8C8 /* Assets.xcassets in Resources */,
 				891776CE1E63FB3F0060A8C8 /* 1111.png in Resources */,
+				891776D41E64237F0060A8C8 /* HeaderTemp.xib in Resources */,
 				891776BC1E63F3020060A8C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +334,7 @@
 				891776C71E63F3020060A8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

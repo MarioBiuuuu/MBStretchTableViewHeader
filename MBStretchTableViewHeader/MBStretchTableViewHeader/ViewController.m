@@ -50,10 +50,12 @@
     
     
     self.stretchHeaderView = [[MBStretchTableViewHeader alloc] init];
-//    [self.stretchHeaderView initWithTableView:self.tableView headerView:header holderViews:nil];
 //    [self.stretchHeaderView initWithTableView:self.tableView headerView:header holderViews:@[bottomView]];
-    self.stretchHeaderView = [[MBStretchTableViewHeader alloc] initWithTableView:self.tableView headerView:header holderViews:nil];
-//    [self.stretchHeaderView configureWithTableView:self.tableView headerView:header holderViews:@[bottomView, leftView]];
+//    self.stretchHeaderView = [[MBStretchTableViewHeader alloc] initWithTableView:self.tableView headerView:header holderViews:nil];
+    [self.stretchHeaderView configureWithTableView:self.tableView headerView:header holderViews:@[bottomView, leftView]];
+//    UIView *xibHeaderView = [[[NSBundle mainBundle] loadNibNamed:@"HeaderTemp" owner:nil options:nil] firstObject];
+//    xibHeaderView.frame = CGRectMake(0, 0, self.tableView.frame.size.width, 100);
+//    [self.stretchHeaderView configureWithTableView:self.tableView headerView:xibHeaderView holderViews:nil];
     
 }
 
