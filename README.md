@@ -1,6 +1,6 @@
 # MBStretchTableViewHeader
 Create a tableview header which can be stretched.一句代码创建可被拉伸的表头.
-一句代码创建一个可以被拉伸的表头
+一句代码创建一个可以被拉伸的表头, 支持通过XIB创建的视图
 **Usage:**
 * 在使用的位置引用头文件 `#import "MBStretchTableViewHeader.h"`
 * 构造方法: `self.stretchHeaderView = [[MBStretchTableViewHeader alloc] initWithTableView:self.tableView headerView:header holderViews:nil];`
