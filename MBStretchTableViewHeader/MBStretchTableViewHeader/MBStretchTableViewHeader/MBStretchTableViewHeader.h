@@ -17,7 +17,7 @@
 @property (nonatomic, assign) BOOL headerSubViewMoving;
 
 /**
- 构造方法
+ 构造方法  
  
  @param tableView 当前操作TableView
  @param headerView 表头
