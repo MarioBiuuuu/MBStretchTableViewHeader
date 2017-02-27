@@ -32,7 +32,28 @@
     header.layer.masksToBounds = YES;
     self.tableView.tableHeaderView = header;
 
-    self.stretchHeaderView = [MBStretchTableViewHeader stretchHeaderWithTableView:self.tableView headerView:header];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 50, 50);
+    btn.backgroundColor = [UIColor redColor];
+    
+    btn.center = header.center;
+    
+    UIView *bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(header.frame) - 50, CGRectGetWidth(header.frame), 50)];
+    bottomView.backgroundColor = [UIColor orangeColor];
+    [header addSubview:bottomView];
+    
+    UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(header.frame) - 110, 30, 30)];
+    leftView.backgroundColor = [UIColor blueColor];
+    [header addSubview:leftView];
+    
+    [header addSubview:btn];
+    
+    
+    self.stretchHeaderView = [[MBStretchTableViewHeader alloc] init];
+//    [self.stretchHeaderView initWithTableView:self.tableView headerView:header holderViews:nil];
+//    [self.stretchHeaderView initWithTableView:self.tableView headerView:header holderViews:@[bottomView]];
+    self.stretchHeaderView = [[MBStretchTableViewHeader alloc] initWithTableView:self.tableView headerView:header holderViews:nil];
+//    [self.stretchHeaderView configureWithTableView:self.tableView headerView:header holderViews:@[bottomView, leftView]];
     
 }
 
