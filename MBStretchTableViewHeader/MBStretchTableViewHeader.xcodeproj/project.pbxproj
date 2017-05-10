@@ -14,8 +14,8 @@
 		891776BE1E63F3020060A8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891776BD1E63F3020060A8C8 /* Assets.xcassets */; };
 		891776C11E63F3020060A8C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891776BF1E63F3020060A8C8 /* LaunchScreen.storyboard */; };
 		891776CE1E63FB3F0060A8C8 /* 1111.png in Resources */ = {isa = PBXBuildFile; fileRef = 891776CD1E63FB3F0060A8C8 /* 1111.png */; };
-		891776D21E640B970060A8C8 /* MBStretchTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 891776D11E640B970060A8C8 /* MBStretchTableViewHeader.m */; };
 		891776D41E64237F0060A8C8 /* HeaderTemp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 891776D31E64237F0060A8C8 /* HeaderTemp.xib */; };
+		89A125421EC2E2830094011C /* MBStretchTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A125411EC2E2830094011C /* MBStretchTableViewHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +30,9 @@
 		891776C01E63F3020060A8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		891776C21E63F3020060A8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		891776CD1E63FB3F0060A8C8 /* 1111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1111.png; sourceTree = "<group>"; };
-		891776D01E640B970060A8C8 /* MBStretchTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStretchTableViewHeader.h; sourceTree = "<group>"; };
-		891776D11E640B970060A8C8 /* MBStretchTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStretchTableViewHeader.m; sourceTree = "<group>"; };
 		891776D31E64237F0060A8C8 /* HeaderTemp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTemp.xib; sourceTree = "<group>"; };
+		89A125401EC2E2830094011C /* MBStretchTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStretchTableViewHeader.h; sourceTree = "<group>"; };
+		89A125411EC2E2830094011C /* MBStretchTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStretchTableViewHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 		891776B01E63F3000060A8C8 /* MBStretchTableViewHeader */ = {
 			isa = PBXGroup;
 			children = (
-				891776CF1E640B970060A8C8 /* MBStretchTableViewHeader */,
+				89A1253F1EC2E2830094011C /* MBStretch */,
 				891776B41E63F3000060A8C8 /* AppDelegate.h */,
 				891776B51E63F3000060A8C8 /* AppDelegate.m */,
 				891776B71E63F3010060A8C8 /* ViewController.h */,
@@ -89,13 +89,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		891776CF1E640B970060A8C8 /* MBStretchTableViewHeader */ = {
+		89A1253F1EC2E2830094011C /* MBStretch */ = {
 			isa = PBXGroup;
 			children = (
-				891776D01E640B970060A8C8 /* MBStretchTableViewHeader.h */,
-				891776D11E640B970060A8C8 /* MBStretchTableViewHeader.m */,
+				89A125401EC2E2830094011C /* MBStretchTableViewHeader.h */,
+				89A125411EC2E2830094011C /* MBStretchTableViewHeader.m */,
 			);
-			path = MBStretchTableViewHeader;
+			path = MBStretch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				891776B91E63F3020060A8C8 /* ViewController.m in Sources */,
-				891776D21E640B970060A8C8 /* MBStretchTableViewHeader.m in Sources */,
+				89A125421EC2E2830094011C /* MBStretchTableViewHeader.m in Sources */,
 				891776B61E63F3000060A8C8 /* AppDelegate.m in Sources */,
 				891776B31E63F3000060A8C8 /* main.m in Sources */,
 			);
